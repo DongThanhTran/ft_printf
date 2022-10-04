@@ -6,7 +6,7 @@
 /*   By: dtran <dtran@student.codam.nl>               +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/16 19:59:52 by dtran         #+#    #+#                 */
-/*   Updated: 2021/11/22 19:41:51 by dtran         ########   odam.nl         */
+/*   Updated: 2022/10/04 18:24:03 by dtran         ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,7 @@ int	ft_intlen(int num)
 
 	len = 0;
 	if (num <= 0)
-	{
 		len++;
-	}
 	while (num)
 	{
 		len++;
